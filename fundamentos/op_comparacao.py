@@ -1,0 +1,11 @@
+#operadores de comparacao
+print(2 < 3)
+print(9 > 8)
+print(1 == 1)
+print(1 != 2)
+print(1 != 1)
+print(4 <= 4)
+print(5 >= 6)
+print(1 < 2 < 2)
+print(1 < 2 < 2)
+print(1 + 2 < 25 / 5)
