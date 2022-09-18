@@ -1,0 +1,39 @@
+###
+#
+# Teste API playlist
+
+###
+# Confere API rodando
+GET http://localhost:8000/
+
+###
+# Pesquisar todas as musicas
+GET http://localhost:8000/musicas
+
+###
+# Pesquisar pelo codigo
+GET http://localhost:8000/musicas/2
+
+###
+# Cadastro de musica
+POST  http://localhost:8000/musicas
+
+{
+    "nome": "Sem Parar",
+    "artista": "Gabriel Pensador",
+    "tempo": 100
+}
+
+###
+# Atualiza musica pelo codigo
+PUT http://localhost:8000/musicas/2
+
+{
+    "nome": "Sem Parar",
+    "artista": "Gabriel Pensador",
+    "tempo": 100
+}
+
+###
+# Deleta musica pelo codigo
+DELETE http://localhost:8000/musicas/2
